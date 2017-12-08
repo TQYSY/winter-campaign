@@ -1078,7 +1078,8 @@ ol,p,ul {
 
 .probootstrap-animate {
 	opacity: 0;
-	visibility: hidden
+	visibility: hidden;
+	
 }
 
 .modal .modal-content {
@@ -1547,7 +1548,8 @@ ol,p,ul {
 
 @media screen and (max-width:768px) {
 	.probootstrap-heading .secondary-heading {
-		font-size: 40px
+		font-size: 40px;
+		margin-top:3em;
 	}
 }
 
@@ -1946,13 +1948,7 @@ ol,p,ul {
 			 
 -------------------------------------------	*/
 
-.probootstrap-cell .image > a {
-	
-	display: inline-flex;
-    
-    height: 240px;
-    width: 100%;
-}
+
 .text > p {
 	margin: 0 0 5px;
 }
@@ -2298,6 +2294,15 @@ color: #F9D994;
 	width: 50%
 }
 
+.probootstrap-cell .image > a {
+	
+	display: inline-flex;
+    
+    height: 240px;
+    width: 100%;
+}
+
+
 @media screen and (max-width:992px) {
 	.probootstrap-cell .image,.probootstrap-cell .text {
 		width: 100%
@@ -2319,7 +2324,8 @@ color: #F9D994;
 		height: 600px;
 	}
 	.image > a {
-		height: 600px;
+		/*height: 600px;*/
+		height:-webkit-fill-available !important;
 	}
 }
 
@@ -2331,6 +2337,16 @@ color: #F9D994;
 	}
 	.image > a {
 		height: 350px;
+	}
+}
+@media screen and (max-width:320px) {
+	
+
+	.probootstrap-cell .image {
+		height: 250px;
+	}
+	.image > a {
+		height: 250px;
 	}
 }
 .btn-see {
@@ -2470,7 +2486,7 @@ color: #F9D994;
 
 
 .resto-h3 {
-	font-size:40px;
+	font-size:40px !important;
 }
 
 .demoSpan1{
@@ -2535,13 +2551,13 @@ color: #F9D994;
 	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/macau_400x400.jpg);
     }
     .resto-h3 {
-	font-size:30px;
+	font-size:30px !important;
     }
 	.menus li .image img {
 		max-width:90%;
 	}
 	.menus li .text h3 {
-		font-size:15px;
+		font-size:15px !important;
 		margin-top:0px;
 	}
 	.menus li .text {
@@ -2586,13 +2602,20 @@ color: #F9D994;
 	
    }
    .probootstrap-cell .text h3 {
-	   font-size:15px;
+	   font-size:15px !important;
    }
    .probootstrap-block-image .text h3 {
-	   font-size:15px;
+	   font-size:15px !important;
    }
    .cnt_image_1 {
-	   margin-bottom:5px;
+	   margin-bottom:5px !important;
+   }
+   .probootstrap-cell-retro {
+	   padding-left:15px !important;
+	   padding-right:15px !important;
+   }
+   .probootstrap-cell .text {
+	   margin-bottom:-30px;
    }
 
  
