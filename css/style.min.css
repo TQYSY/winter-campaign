@@ -2474,6 +2474,15 @@ color: #F9D994;
 	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/hacken-joey_2000x600-en.jpg);
 }
 
+.resto-bg-cas-sc {
+	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/hacken-joey_2000x600-sc.jpg);
+}
+
+.resto-bg-cas-tc {
+	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/hacken-joey_2000x600-tc.jpg);
+}
+
+
 .resto-bg-hl {
 	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/hotel_2000x600.jpg);
 }
@@ -2486,7 +2495,7 @@ color: #F9D994;
 
 
 .resto-h3 {
-	font-size:40px !important;
+	font-size:3.2em !important;
 }
 
 .demoSpan1{
@@ -2543,6 +2552,14 @@ color: #F9D994;
 	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/hacken-joey_400x400.jpg);
     }
 
+.resto-bg-cas-sc {
+	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/hacken-joey_400x400-sc.jpg);
+}
+
+.resto-bg-cas-tc {
+	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/hacken-joey_400x400-tc.jpg);
+}
+
     .resto-bg-hl {
 	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/hotel_400x400.jpg);
     }
@@ -2563,6 +2580,7 @@ color: #F9D994;
 	.menus li .text {
 		word-break:break-all;
 		word-wrap:break-word;
+		padding-left:10px;
 	}
 	.menus li .text .price {
 		margin-bottom:15px;
@@ -2616,6 +2634,9 @@ color: #F9D994;
    }
    .probootstrap-cell .text {
 	   margin-bottom:-30px;
+   }
+   .probootstrap-heading.dark .secondary-heading {
+	   margin-top:0px !important;
    }
 
  
