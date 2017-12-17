@@ -16390,16 +16390,22 @@ a.pswp__share--download:hover {
   
   
   
-@media (min-width:768px) {
-	
-	.navbar-right-resto {
-		float: right!important;
-		margin-right: 30%;
-		height:55px;
-	}
-
-	
+.navbar-right-resto {
+	width: 100%;
+    height: 100% !important;
+    text-align: center;
+    list-style: none;
+    display: inline-block !important;
+    float: none !important;
+    margin: 0;
+} 
+ 
+.navbar-right-resto > li {
+	float: none !important;
+    display: inline-block !important;
 }
+  
+
 
 @media (min-width:768px) {
 	
@@ -16412,6 +16418,18 @@ a.pswp__share--download:hover {
 }
   
   /*
+@media (min-width:768px) {
+	
+	.navbar-right-resto {
+		float: right!important;
+		margin-right: 30%;
+		height:55px;
+	
+	}
+
+	
+}  
+  
 @media (min-width:800px) {
 	
 	.navbar-right-resto {
@@ -16421,7 +16439,7 @@ a.pswp__share--download:hover {
 
 	
 }
-*/
+
 @media (min-width:885px) {
 	
 	.navbar-right-resto {
@@ -16462,6 +16480,8 @@ a.pswp__share--download:hover {
 	}
 
 } 
+
+*/
   
   
   
