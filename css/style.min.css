@@ -813,7 +813,7 @@ ol,p,ul {
 }
 
 .probootstrap-block-image .text h3 a:hover {
-	color: #FFA33E
+	/*color: #FFA33E*/
 }
 
 .probootstrap-block-image .text p:last-child {
@@ -2264,7 +2264,7 @@ color: #F9D994;
 	.menus li .text .price {
 		top: 0;
 		position: relative;
-		display: block;
+		
 		margin-bottom: 0
 		
 	}
@@ -2496,7 +2496,7 @@ color: #F9D994;
    }
 }
 
-
+/*
 .resto-bg-sp {
 	background:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/shopping_2000x600.jpg );
 }
@@ -2526,7 +2526,7 @@ color: #F9D994;
 	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/macau_2000x600.jpg );
 }
 
-
+*/
 
 
 .resto-h3 {
@@ -2680,6 +2680,20 @@ color: #F9D994;
 	
 }
 
+/*  Resto Section Banner  */
+@media screen and (max-width:767px) {
+	 .resto-bg {
+	width:100%;
+	height:100%;
+	margin-top:5%;
+	}
+}
+.resto-bg {
+	width:100%;
+	height:100%;
+	margin-top:3em;
+	}
+
 
 
 
@@ -2712,7 +2726,7 @@ color: #F9D994;
 	}
 	
 	
-	.resto-bg-sp {
+	/*.resto-bg-sp {
 	background:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/shopping-banner_400x400.jpg );
     }
 
@@ -2738,7 +2752,7 @@ color: #F9D994;
 
     .resto-bg-ma {
 	background-image:url(https://www.venetianmacau.com/content/dam/macau/promotions/srm/winter/banner/macau_400x400.jpg);
-    }
+    }*/
     .resto-h3 {
 	font-size:18px !important;
     }
@@ -2756,7 +2770,7 @@ color: #F9D994;
 	}
 	.menus li .text .price {
 		margin-bottom:15px;
-		width:85px;
+		
 	}
 	.demoSpan1{
 	background: #333;
